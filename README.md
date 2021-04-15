@@ -4,7 +4,6 @@ _Programa para dar vida a un R2D2 con sonido, luces, movimiento y melodías_
 
 Link de YouTube sobre su funcionamiento:  pendiente
 
-Repositorio de piezas en Thingeverse: pendiente
 
 ![R2D2](https://github.com/OscarCalero/R2D2_animado/blob/main/R2D2.png?raw=true)
 
