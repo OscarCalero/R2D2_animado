@@ -6,7 +6,7 @@ Link de YouTube sobre su funcionamiento:  pendiente
 
 Repositorio de piezas en Thingeverse: pendiente
 
-![alt text](https://github.com/OscarCalero/R2D2_animado/R2D2.png?raw=true)
+![R2D2](https://github.com/OscarCalero/R2D2_animado/blob/main/R2D2.png?raw=true)
 
 ## Que es...
 Mediante un procesador ATmega168 o ATmega328p podemos hacer que nuestro R2D2 hable, emita luces, gire y ande. También puede reproducir melodías pre-grabadas, y todo ello desde un mando a distancia. Una vez programado, se le pueden cambiar los códigos de los mándos y las melodias por puerto serie.
