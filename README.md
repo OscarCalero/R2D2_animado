@@ -2,7 +2,7 @@
 
 _Programa para dar vida a un R2D2 con sonido, luces, movimiento y melodías_
 
-Link de YouTube cons instrucciones de montaje, programación y funcionamiento :  https://youtu.be/6vW1G448bJM
+Link de YouTube con instrucciones de montaje, programación y funcionamiento :  https://youtu.be/6vW1G448bJM
 
 
 ![R2D2](https://github.com/OscarCalero/R2D2_animado/blob/main/R2D2.png?raw=true)
