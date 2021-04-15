@@ -18,7 +18,9 @@ Podemos utilizar solo el sonido y hacer una caja de música, CON o SIN luz, u ot
 Referiros al video para ver como se fabrica, pero aquí teneis algunas nociones para programarlo por el puerto serie.
 
 Las instrucciones 'song' y 'end' nos permiten grabar una melodía.
+
 En un ATmega328 puedes enviar los códigos de 10 en 10 (o incluso más), pero en ATmega168 de 5 en 5 por su falta de memoria dinámica.
+
 Este es un ejemplo, donde con 'song1' le decimos al sistema que introducimos la melodía 1 y con 'end' le comunicamos que hemos terminado.
 
 ```
@@ -67,9 +69,13 @@ rf16 - Melodía 4 (código secundario)
 
 ## Como crear una melodía:
 songX  = Inicio de meloria, donde X es la melodía de 1 a 4
+
 TX = Tiempo de silencio después las notas siguientes, donde X es un número de 0 a 5500 ( mS ) –redondeado-
+
 XYZ = nota donde X = octava de 0 a 9, Y = letra que representa la nota según descripción abajo y Z es la duración de la nota de 1 a 4004  (mS) –redondeado-
+
 end  = Finalización de melodía
+
 Ejemplo:
 ```
 song1 T49 5R156 4D12 T0 5L1081 4D101 end 
@@ -118,12 +124,16 @@ Los 'tempos' de silencio serán redondeados, entre 5 y 20 mS, y los 'tempos' de 
 
 ### Que ocupa una melodía?
 1 byte cada nota
+
 2 byte por cada cambio de silencio
+
 1 byte cada cambio de octava
+
 1 byte al final de melodía
 
 ### Espacio en bytes para las melodías
 Lo prodrás ver en el código, y puedes cambiar la posición de inicio de los punteros de memoria, para dar más capacidad de bytes a una melodía u otra. Pero antes que grabar el programa en el ATmega, porque no es modificable por puerto serie.
+
 Ejemplo del ATmega328p:
 ```
 // 952 byte para melodias
@@ -133,7 +143,8 @@ const int punteroEE_M3 = 548; // dirección melodía 3 (238 bytes)
 const int punteroEE_M4 = 786; // dirección melodía 4 (238 bytes)
 ```
 
-###Disfruta...
+### Disfruta...
+
 Oscar
 
 
